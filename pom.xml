@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.buck.pear</groupId>
+	<artifactId>pear</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>pear</name>
+	<description>pear的父工程</description>
+
+	<modules>
+		<!--通用工程-->
+		<module>pear-common</module>
+		<!--核心工程-->
+		<module>pear-core</module>
+		<!--数据库迁移-->
+		<module>pear-db</module>
+		<!--移动端-->
+		<module>pear-mobile</module>
+		<!--后台管理界面-->
+		<module>pear-admin</module>
+		<!--会员中心-->
+		<module>pear-member</module>
+	</modules>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
