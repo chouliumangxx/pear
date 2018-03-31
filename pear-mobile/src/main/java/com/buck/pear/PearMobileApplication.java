@@ -1,4 +1,4 @@
-package com.buck.pear.pearmobile;
+package com.buck.pear;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

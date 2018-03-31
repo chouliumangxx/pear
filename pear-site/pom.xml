@@ -6,10 +6,12 @@
 	<groupId>com.buck.pear</groupId>
 	<artifactId>pear-site</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>pear-site</name>
 	<description>Demo project for Spring Boot</description>
+
+
 
 
 	<build>

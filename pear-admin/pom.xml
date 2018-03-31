@@ -17,8 +17,6 @@
 	<name>pear-admin</name>
 	<description>后台管理界面</description>
 
-
-
 	<build>
 		<plugins>
 			<plugin>

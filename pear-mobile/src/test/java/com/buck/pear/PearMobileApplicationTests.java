@@ -1,4 +1,4 @@
-package com.buck.pear.pearmobile;
+package com.buck.pear;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
